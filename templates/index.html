@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Counter</title>
+</head>
+
+<body>
+    <h1 class="p-3 mb-2 bg-primary text-white d-flex justify-content-center">Counter</h1>
+    <h2><span  class="badge rounded-pill text-bg-success d-flex justify-content-center">{{count}}</span></h2>
+    <div class="d-flex justify-content-evenly">
+        <form action='/addone'>
+                <input type="submit" name="" value="+1" class="btn btn-primary">
+        </form>
+        <form action='/addtwo'>
+                <input type="submit" name="" value="+2" class="btn btn-info">
+        </form>
+        <form action='/reset'>
+                <input type="submit" name="" value="reset" class="btn btn-danger">
+        </form>
+    </div> 
+</body>
+
+</html>
